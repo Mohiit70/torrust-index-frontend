@@ -1,87 +1,75 @@
-# Torrust Index Front End
+# Torrust Index Frontend
 
-![README HEADER](vue-2/img/Torrust_Repo_FrontEnd_Readme_Header-20220615.jpg)
+Welcome to the **Torrust Index Frontend**, an open-source web application that allows users to easily search and browse Torrust Index data. This repository serves as the frontend for the Torrust Index project, and was developed by Dutch Bits for Nautilus Cyberneering GmbH.
 
 ![Open Source](https://badgen.net/badge/Open%20Source/100%25/DA2CE7)
 ![Cool](https://badgen.net/badge/Cool/100%25/FF7F50)
 
-![Nautilus Sponsored](https://badgen.net/badge/Sponsor/Nautilus%20Cyberneering/red)
-
 ---
 
-## 📢Important Updates 📢
+## 📢 Important Updates
 
 - None at the moment [ACCESS ALL UPDATES](https://github.com/torrust/torrust-index-frontend/wiki/Project-Updates)
 
 ---
----
-
-## Index
-
-- [PROJECT DESCRIPTION](#project-description)
-- [PROJECT ROADMAP](#project_roadmap)
-- [DOCUMENTATION](#documentation)
-- [INSTALLATION](#installation)
-- [CONTACT](#contact_and_contributing)
-- [CREDITS](#credits)
 
 ## Project Description
 
-This repository serves as the frontend for the [Torrust Index](https://github.com/torrust/torrust-index) project.
-
-### Roadmap
-
-*Coming soon.*
-
-## Documentation
-
-You can read the documentation [here](https://torrust.github.io/torrust-documentation/torrust-web-frontend/about/).
-
-## Installation
-
-1. Install prerequisites:
-    - [NodeJS/NPM](https://nodejs.org/) - NodeJS & Node Package Manager.
-
-2. Clone the repository:
-
-    ```bash
-    git clone https://github.com/torrust/torrust-index-frontend.git
-    ```
-
-3. Set the URL of the backend:
-    > Replace YOUR_BACKEND_URL
-
-    ```bash
-    echo "VITE_API_BASE_URL=YOUR_BACKEND_URL" > .env
-    ```
-
-4. Install node modules and build the frontend:
-
-    ```bash
-    npm i
-    npm run build
-    ```
-
-5. Serve the newly generated `dist` folder.
-
-## Contact and Contributing
-
-Feel free to contact us via:
-
-Message `Warm Beer#3352` on Discord or email `mick@dutchbits.nl`.
-
-or
-
-Please make suggestions and report any **Torrust Index Front End** specific bugs you find to the issue tracker of this repository [here](https://github.com/torrust/torrust-index-frontend/issues)
-
-**Torrust Index Back End** specific issues can be submitted [here](https://github.com/torrust/torrust-index-backend/issues).
-
-Universal issues with the **Torrust Index** can be submitted [here](https://github.com/torrust/torrust-index/issues). Ideas and feature requests are welcome as well!
+The Torrust Index Frontend is a web application built with **Node.js** and **Node Package Manager (NPM)**. It provides users with an easy-to-use interface for searching and browsing Torrust Index data.
 
 ---
 
-## Credits & Sponsors
+## Project Roadmap
 
-This project was developed by [Dutch Bits](https://dutchbits.nl) for [Nautilus Cyberneering GmbH](https://nautilus-cyberneering.de/).
+The project roadmap is currently under development and will be added soon.
 
-The project has been possible through the support and contribution of both Nautilus Cyberneering, its team and collaborators, as well as that of our great open source contributors. Thank you to you all!
+---
+
+## Documentation
+
+You can find the documentation for the Torrust Index Frontend in the **[docs](./docs)** folder of this repository.
+
+---
+
+## Installation
+
+To install the Torrust Index Frontend, follow these steps:
+
+1. Install **Node.js** and **Node Package Manager (NPM)**:
+
+```bash
+sudo apt-get update
+sudo apt-get install nodejs
+sudo apt-get install npm
+
+2. Clone the repository using git clone https://github.com/torrust/torrust-index-frontend.git.
+
+3. Set the URL of the backend by replacing YOUR_BACKEND_URL in the following command:
+
+echo "VITE_API_BASE_URL=YOUR_BACKEND_URL" > .env
+
+4. Install the necessary node modules:
+
+npm install
+
+5. Build the frontend:
+
+npm run build
+
+6. Serve the newly generated dist folder:
+
+npm run serve
+ ```
+
+---
+
+
+## Contact and Contributing
+
+🤔 If you have any questions or suggestions, feel free to reach out to us on Discord by messaging **Warm Beer#3352**, or by emailing **mick@dutchbits.nl**. If you find any bugs, please submit them to the issue tracker of this repository.
+
+---
+
+## Credits and Sponsors
+
+👏 This project was developed by **Dutch Bits** for **Nautilus Cyberneering GmbH**. We would like to thank Nautilus Cyberneering and all of our open source contributors for their support and contributions.
